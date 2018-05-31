@@ -10,7 +10,7 @@
   ToastUtil.shared().setCornerRadius = 10;
   ToastUtil.shared().setToastTextColor = UIColor.black;
   ToastUtil.shared().setToastBackgroundColor = UIColor.gray.withAlphaComponent(0.5);
-  * dismiss duration time interval in seconds
   ToastUtil.shared().dismissDuration = 10;
+  * dismiss duration time interval in seconds
 
 
