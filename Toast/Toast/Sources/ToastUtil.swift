@@ -68,14 +68,14 @@ public class ToastUtil {
         if #available(iOS 11.0, *) {
             [containerView.rightAnchor.constraint(lessThanOrEqualTo: currentWindow.safeAreaLayoutGuide.rightAnchor, constant: -12),
              containerView.leftAnchor.constraint(greaterThanOrEqualTo: currentWindow.safeAreaLayoutGuide.leftAnchor, constant: 12),
-             containerView.bottomAnchor.constraint(equalTo: currentWindow.safeAreaLayoutGuide.bottomAnchor, constant: -12),
+             containerView.bottomAnchor.constraint(equalTo: currentWindow.safeAreaLayoutGuide.bottomAnchor, constant: -24),
              containerView.centerXAnchor.constraint(equalTo: currentWindow.centerXAnchor)].forEach { (constraints) in
                 constraints.isActive = true
             }
         }else {
             [containerView.rightAnchor.constraint(lessThanOrEqualTo: currentWindow.rightAnchor, constant: -12),
              containerView.leftAnchor.constraint(greaterThanOrEqualTo: currentWindow.leftAnchor, constant: 12),
-             containerView.bottomAnchor.constraint(equalTo: currentWindow.bottomAnchor, constant: -12),
+             containerView.bottomAnchor.constraint(equalTo: currentWindow.bottomAnchor, constant: -24),
              containerView.centerXAnchor.constraint(equalTo: currentWindow.centerXAnchor)].forEach { (constraints) in
                 constraints.isActive = true
             }
