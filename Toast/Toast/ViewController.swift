@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func toastBtnHandler(_ sender: Any) {
+        view.endEditing(true)
         ToastUtil.makeToast(tfToast.text!)
     }
     
